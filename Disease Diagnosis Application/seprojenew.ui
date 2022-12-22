@@ -1,0 +1,1412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>712</width>
+    <height>764</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>411</width>
+      <height>751</height>
+     </rect>
+    </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;png.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="accessibleName">
+     <string>Man</string>
+    </property>
+    <property name="tabPosition">
+     <enum>QTabWidget::North</enum>
+    </property>
+    <property name="tabShape">
+     <enum>QTabWidget::Triangular</enum>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <property name="tabsClosable">
+     <bool>false</bool>
+    </property>
+    <property name="tabBarAutoHide">
+     <bool>false</bool>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>Man</string>
+     </attribute>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>-30</x>
+        <y>0</y>
+        <width>391</width>
+        <height>721</height>
+       </rect>
+      </property>
+      <property name="tabletTracking">
+       <bool>false</bool>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::ClickFocus</enum>
+      </property>
+      <property name="contextMenuPolicy">
+       <enum>Qt::ActionsContextMenu</enum>
+      </property>
+      <property name="acceptDrops">
+       <bool>false</bool>
+      </property>
+      <property name="whatsThis">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;png.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>png.png</pixmap>
+      </property>
+     </widget>
+     <widget class="Line" name="line_3">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>180</y>
+        <width>111</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="midLineWidth">
+       <number>1</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="Line" name="line">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>40</y>
+        <width>111</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="midLineWidth">
+       <number>1</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="Line" name="line_5">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>740</y>
+        <width>151</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="midLineWidth">
+       <number>1</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="LEGe">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>470</y>
+        <width>74</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="acceptDrops">
+       <bool>true</bool>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="editable">
+       <bool>true</bool>
+      </property>
+      <property name="currentText">
+       <string>Leg</string>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <property name="minimumContentsLength">
+       <number>0</number>
+      </property>
+      <property name="duplicatesEnabled">
+       <bool>false</bool>
+      </property>
+      <property name="frame">
+       <bool>true</bool>
+      </property>
+      <item>
+       <property name="text">
+        <string>Leg</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>sprain</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>numbness</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>cramp</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>tingle</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="Line" name="line_4">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>470</y>
+        <width>101</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="midLineWidth">
+       <number>1</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="BodyE">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>180</y>
+        <width>122</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="acceptDrops">
+       <bool>true</bool>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="editable">
+       <bool>true</bool>
+      </property>
+      <property name="currentText">
+       <string>Body</string>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <property name="minimumContentsLength">
+       <number>0</number>
+      </property>
+      <property name="duplicatesEnabled">
+       <bool>false</bool>
+      </property>
+      <property name="frame">
+       <bool>true</bool>
+      </property>
+      <item>
+       <property name="text">
+        <string>Body</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Redness</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Itching</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Swelling</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Chest Pain</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Shortness of breath</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QComboBox" name="ArmE">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>230</y>
+        <width>81</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="acceptDrops">
+       <bool>true</bool>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="editable">
+       <bool>true</bool>
+      </property>
+      <property name="currentText">
+       <string>Arm</string>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <property name="minimumContentsLength">
+       <number>0</number>
+      </property>
+      <property name="duplicatesEnabled">
+       <bool>false</bool>
+      </property>
+      <property name="frame">
+       <bool>true</bool>
+      </property>
+      <item>
+       <property name="text">
+        <string>Arm</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Cramp</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Joint Pain</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Muscle Pain</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QComboBox" name="comboBox_5">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>740</y>
+        <width>50</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="acceptDrops">
+       <bool>true</bool>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="editable">
+       <bool>true</bool>
+      </property>
+      <property name="currentText">
+       <string>ayak</string>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <property name="minimumContentsLength">
+       <number>0</number>
+      </property>
+      <property name="duplicatesEnabled">
+       <bool>false</bool>
+      </property>
+      <property name="frame">
+       <bool>true</bool>
+      </property>
+      <item>
+       <property name="text">
+        <string>ayak</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="Line" name="line_2">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>230</y>
+        <width>71</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="midLineWidth">
+       <number>1</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox_11">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>470</y>
+        <width>44</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="acceptDrops">
+       <bool>true</bool>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="editable">
+       <bool>true</bool>
+      </property>
+      <property name="currentText">
+       <string>arm</string>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <property name="minimumContentsLength">
+       <number>0</number>
+      </property>
+      <property name="duplicatesEnabled">
+       <bool>false</bool>
+      </property>
+      <property name="frame">
+       <bool>true</bool>
+      </property>
+      <item>
+       <property name="text">
+        <string>arm</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QComboBox" name="FOe">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>690</y>
+        <width>104</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="acceptDrops">
+       <bool>true</bool>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="editable">
+       <bool>true</bool>
+      </property>
+      <property name="currentText">
+       <string>Foot</string>
+      </property>
+      <property name="insertPolicy">
+       <enum>QComboBox::InsertAtTop</enum>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <property name="minimumContentsLength">
+       <number>0</number>
+      </property>
+      <property name="duplicatesEnabled">
+       <bool>false</bool>
+      </property>
+      <property name="frame">
+       <bool>true</bool>
+      </property>
+      <item>
+       <property name="text">
+        <string>Foot</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>athlete's foot</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>foot odor</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ingrown toenails</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>callus</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="Line" name="line_11">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>690</y>
+        <width>101</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="midLineWidth">
+       <number>1</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="HandE">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>350</y>
+        <width>100</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="acceptDrops">
+       <bool>true</bool>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="editable">
+       <bool>true</bool>
+      </property>
+      <property name="currentText">
+       <string>Hand</string>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <property name="minimumContentsLength">
+       <number>0</number>
+      </property>
+      <property name="duplicatesEnabled">
+       <bool>false</bool>
+      </property>
+      <property name="frame">
+       <bool>true</bool>
+      </property>
+      <item>
+       <property name="text">
+        <string>Hand</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Hand Crack</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Peeling</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Finger Fracture</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Nail Break</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="Line" name="line_12">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>360</y>
+        <width>31</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="midLineWidth">
+       <number>1</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="Line" name="line_14">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>400</y>
+        <width>141</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="midLineWidth">
+       <number>1</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="GAE">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>400</y>
+        <width>133</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="acceptDrops">
+       <bool>true</bool>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="editable">
+       <bool>true</bool>
+      </property>
+      <property name="currentText">
+       <string>Genital Area</string>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <property name="minimumContentsLength">
+       <number>0</number>
+      </property>
+      <property name="duplicatesEnabled">
+       <bool>false</bool>
+      </property>
+      <property name="frame">
+       <bool>true</bool>
+      </property>
+      <item>
+       <property name="text">
+        <string>Genital Area</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Idrar yaparken yanma</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Kasiklarda sislik</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Sik idrara cikma</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>cinsel bolgede yara</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QComboBox" name="HeadE">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>76</x>
+        <y>40</y>
+        <width>101</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="acceptDrops">
+       <bool>true</bool>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="locale">
+       <locale language="English" country="UnitedStatesMinorOutlyingIslands"/>
+      </property>
+      <property name="inputMethodHints">
+       <set>Qt::ImhNone</set>
+      </property>
+      <property name="editable">
+       <bool>true</bool>
+      </property>
+      <property name="currentText">
+       <string>Head</string>
+      </property>
+      <property name="insertPolicy">
+       <enum>QComboBox::InsertBeforeCurrent</enum>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <property name="minimumContentsLength">
+       <number>0</number>
+      </property>
+      <property name="duplicatesEnabled">
+       <bool>false</bool>
+      </property>
+      <property name="frame">
+       <bool>true</bool>
+      </property>
+      <item>
+       <property name="text">
+        <string>Head</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Headache</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Defect of Vision</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Tinnitus</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Runny Nose</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Sore Throat</string>
+       </property>
+      </item>
+     </widget>
+     <zorder>label</zorder>
+     <zorder>line_3</zorder>
+     <zorder>line</zorder>
+     <zorder>line_5</zorder>
+     <zorder>line_4</zorder>
+     <zorder>comboBox_5</zorder>
+     <zorder>line_2</zorder>
+     <zorder>comboBox_11</zorder>
+     <zorder>line_11</zorder>
+     <zorder>line_12</zorder>
+     <zorder>line_14</zorder>
+     <zorder>BodyE</zorder>
+     <zorder>ArmE</zorder>
+     <zorder>HandE</zorder>
+     <zorder>GAE</zorder>
+     <zorder>LEGe</zorder>
+     <zorder>FOe</zorder>
+     <zorder>HeadE</zorder>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>Woman</string>
+     </attribute>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>361</width>
+        <height>721</height>
+       </rect>
+      </property>
+      <property name="whatsThis">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;png.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::RightToLeft</enum>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>png.png</pixmap>
+      </property>
+     </widget>
+     <widget class="Line" name="line_6">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>410</y>
+        <width>31</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="midLineWidth">
+       <number>1</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="Line" name="line_7">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>60</y>
+        <width>111</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="midLineWidth">
+       <number>1</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="Line" name="line_8">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>690</y>
+        <width>91</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="midLineWidth">
+       <number>1</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="Line" name="line_9">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>510</y>
+        <width>91</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="midLineWidth">
+       <number>1</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="Line" name="line_10">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>230</y>
+        <width>91</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="midLineWidth">
+       <number>1</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="Line" name="line_13">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>270</y>
+        <width>51</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="midLineWidth">
+       <number>1</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="GAk">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>370</y>
+        <width>134</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="acceptDrops">
+       <bool>true</bool>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="editable">
+       <bool>true</bool>
+      </property>
+      <property name="currentText">
+       <string>Genital Area</string>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <property name="minimumContentsLength">
+       <number>0</number>
+      </property>
+      <property name="duplicatesEnabled">
+       <bool>false</bool>
+      </property>
+      <property name="frame">
+       <bool>true</bool>
+      </property>
+      <item>
+       <property name="text">
+        <string>Genital Area</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Burning while urinating</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Swelling</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Bleeding</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Itching</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Irritation</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Stream</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="Line" name="line_15">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>370</y>
+        <width>91</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="midLineWidth">
+       <number>1</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="HeadE_2">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>60</y>
+        <width>101</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="acceptDrops">
+       <bool>true</bool>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="locale">
+       <locale language="English" country="UnitedStatesMinorOutlyingIslands"/>
+      </property>
+      <property name="inputMethodHints">
+       <set>Qt::ImhNone</set>
+      </property>
+      <property name="editable">
+       <bool>true</bool>
+      </property>
+      <property name="currentText">
+       <string>Head</string>
+      </property>
+      <property name="insertPolicy">
+       <enum>QComboBox::InsertBeforeCurrent</enum>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <property name="minimumContentsLength">
+       <number>0</number>
+      </property>
+      <property name="duplicatesEnabled">
+       <bool>false</bool>
+      </property>
+      <property name="frame">
+       <bool>true</bool>
+      </property>
+      <item>
+       <property name="text">
+        <string>Head</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Headache</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Defect of Vision</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Tinnitus</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Runny Nose</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Sore Throat</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QComboBox" name="BodyE_2">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>230</y>
+        <width>122</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="acceptDrops">
+       <bool>true</bool>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="editable">
+       <bool>true</bool>
+      </property>
+      <property name="currentText">
+       <string>Body</string>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <property name="minimumContentsLength">
+       <number>0</number>
+      </property>
+      <property name="duplicatesEnabled">
+       <bool>false</bool>
+      </property>
+      <property name="frame">
+       <bool>true</bool>
+      </property>
+      <item>
+       <property name="text">
+        <string>Body</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Redness</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Itching</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Swelling</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Chest Pain</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Shortness of breath</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QComboBox" name="ArmE_2">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>270</y>
+        <width>81</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="acceptDrops">
+       <bool>true</bool>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="editable">
+       <bool>true</bool>
+      </property>
+      <property name="currentText">
+       <string>Arm</string>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <property name="minimumContentsLength">
+       <number>0</number>
+      </property>
+      <property name="duplicatesEnabled">
+       <bool>false</bool>
+      </property>
+      <property name="frame">
+       <bool>true</bool>
+      </property>
+      <item>
+       <property name="text">
+        <string>Arm</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Cramp</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Joint Pain</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Muscle Pain</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QComboBox" name="HandE_2">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>410</y>
+        <width>100</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="acceptDrops">
+       <bool>true</bool>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="editable">
+       <bool>true</bool>
+      </property>
+      <property name="currentText">
+       <string>Hand</string>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <property name="minimumContentsLength">
+       <number>0</number>
+      </property>
+      <property name="duplicatesEnabled">
+       <bool>false</bool>
+      </property>
+      <property name="frame">
+       <bool>true</bool>
+      </property>
+      <item>
+       <property name="text">
+        <string>Hand</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Hand Crack</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Peeling</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Finger Fracture</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Nail Break</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QComboBox" name="LEGe_2">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>510</y>
+        <width>74</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="acceptDrops">
+       <bool>true</bool>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="editable">
+       <bool>true</bool>
+      </property>
+      <property name="currentText">
+       <string>Leg</string>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <property name="minimumContentsLength">
+       <number>0</number>
+      </property>
+      <property name="duplicatesEnabled">
+       <bool>false</bool>
+      </property>
+      <property name="frame">
+       <bool>true</bool>
+      </property>
+      <item>
+       <property name="text">
+        <string>Leg</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>sprain</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>numbness</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>cramp</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>tingle</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QComboBox" name="FOe_2">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>690</y>
+        <width>104</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="acceptDrops">
+       <bool>true</bool>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="editable">
+       <bool>true</bool>
+      </property>
+      <property name="currentText">
+       <string>Foot</string>
+      </property>
+      <property name="insertPolicy">
+       <enum>QComboBox::InsertAtTop</enum>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContents</enum>
+      </property>
+      <property name="minimumContentsLength">
+       <number>0</number>
+      </property>
+      <property name="duplicatesEnabled">
+       <bool>false</bool>
+      </property>
+      <property name="frame">
+       <bool>true</bool>
+      </property>
+      <item>
+       <property name="text">
+        <string>Foot</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>athlete's foot</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>foot odor</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ingrown toenails</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>callus</string>
+       </property>
+      </item>
+     </widget>
+     <zorder>label_2</zorder>
+     <zorder>line_6</zorder>
+     <zorder>line_7</zorder>
+     <zorder>line_8</zorder>
+     <zorder>line_9</zorder>
+     <zorder>line_10</zorder>
+     <zorder>line_13</zorder>
+     <zorder>line_15</zorder>
+     <zorder>HeadE_2</zorder>
+     <zorder>BodyE_2</zorder>
+     <zorder>ArmE_2</zorder>
+     <zorder>GAk</zorder>
+     <zorder>HandE_2</zorder>
+     <zorder>LEGe_2</zorder>
+     <zorder>FOe_2</zorder>
+    </widget>
+   </widget>
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>10</y>
+      <width>321</width>
+      <height>721</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="../../../image.qrc"/>
+ </resources>
+ <connections/>
+</ui>
